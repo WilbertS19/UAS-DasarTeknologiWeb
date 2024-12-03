@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .bg-orange {
+      background-color: orange !important;
+    }
+    .bg-orange2 {
+      background-image: url('images/blegend2.png');
+      background-size:contain;  
+      background-position: center;
+      background-repeat: no-repeat;
+      background-color: orange;
+    }
+
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar -lg navbar-dark bg-dark">
+    <div class="container">
+      <div style="position: absolute; top: 1px; left: 40px;">
+        <img src="images/Foto Profile.jpg" alt="Profile Picture" style="border-radius: 50%; width: 60px; height: 60px;">
+      </div>   
+      <a class="navbar-brand" href="#">Profile</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">News</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Landing Page -->
+  <header class="bg-orange2 text-white text-center py-5">
+    <div class="container">
+      <h1>Welcome to B'legend Website</h1>
+      <p class="lead">Bringing ideas to life with passion, skill, dedication and education.</p>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center">About</h2>
+      <p class="text-center">All About Billiard Things You Can Find Here.</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center">News</h2>
+      <div class="row">
+        <div class="col-md-4 d-flex mb-4">
+          <div class="card h-100">
+            <img src="images/Ko pin Yi.jpg" class="card-img-top" alt="News 1" style="object-fit: cover; width: 100%; height: 100%;">
+            <div class="card-body">
+              <h5 class="card-title">Ko Pin Yi</h5>
+              <p class="card-text">Ko has left an indelible mark on the world of pool after becoming the first Chinese Taipei player to clinch the World Pool Masters title in 2023. However, his most significant feat came in 2015 when he became a multiple world champion, winning the World Pool Championship, the World Cup of Pool, and the World Ten-Ball Championship..</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex mb-4">
+          <div class="card h-100">
+            <img src="images/Efren Reyes.jpeg" class="card-img-top" alt="News 2" style="object-fit: cover; width: 100%; height: 100%;">
+            <div class="card-body">
+              <h5 class="card-title">Efren Reyes</h5>
+              <p class="card-text">Billiards icon Efren “Bata” Reyes was given rockstar treatment recently when he attended the 2024 World Pool Championship in Jeddah, Saudi Arabia.
+
+                Widely regarded as the greatest pool player of all time, the 69-year-old cue artist nicknamed “The Magician” was seen being escorted inside the Prince Abdullah Al-Faisal City Sports Hall during the said nine-ball tournament..</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex mb-4">
+          <div class="card h-100">
+            <img src="images/SVB.jpg" class="card-img-top" alt="News 3" style="object-fit: cover; width: 100%; height: 100%;">
+            <div class="card-body">
+              <h5 class="card-title">Shane Van Boening</h5>
+              <p class="card-text">SVB has forged an illustrious career in professional pool, winning the 2022 World Pool Championship and five US Open titles.
+
+                His recent victory in Premier League Pool 2024 further solidifies his status as one of the greats, alongside gaining recognition from Billiards Digest being named "Player of the Decade" for the 2010s..</p>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+<section id="contact" class="bg-orange text-white text-center py-5">
+  <div class="container">
+    <h2 class="text-center">Contact Me</h2>
+    <p class="text-center">Feel free to contact us via:</p>
+
+    <!-- WhatsApp Contact -->
+    <div class="text-center mb-4">
+      <a href="https://wa.me/6281360232300" target="_blank">
+        <img src="images/whatsapp image.webp" alt="WhatsApp" style="width: 100px; height: 100px;">
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-dark text-white text-center py-3">
+  <p>&copy; 2024 B'legend Website</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
